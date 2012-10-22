@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.7" type="template" client="site">
+	<name>theme259</name>
+	<creationDate>03 April 2012</creationDate>
+	<author>Mercury</author>
+	<authorEmail>info@template-help.com</authorEmail>
+	<authorUrl>http://www.template-help.com</authorUrl>
+	<copyright>Copyright  2003-2012 template-help.com. All Rights Reserved.</copyright>
+	<license> Joomla! CMS files are covered by http://www.gnu.org/copyleft/gpl.html GNU/GPL; Images and template files are covered by ONE TIME USAGE LICENSE from templatemonster.com http://www.templatemonster.com/license_faq.php
+</license>
+	<version>2.5.3</version>
+	<description>this template for Joomla 2.5 is made by template-help.com</description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>javascript</folder>
+		<folder>language</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>PIE.php</filename>
+		<filename>PIE.htc</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+	</files>
+	<positions>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>breadcrumb</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>new</position>
+		<position>specials</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+	<!-- 	For core templates, we also install/uninstall the language files in the core language folders.
+	-->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_theme259.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_theme259.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="logo" type="media"
+					hide_default="1"
+					label="TPL_theme_FIELD_LOGO_LABEL" description="TPL_theme_FIELD_LOGO_DESC" />
+					
+				<field name="sitetitle"  type="text" default=""
+					label="TPL_theme_FIELD_SITETITLE_LABEL"
+					description="TPL_theme_FIELD_SITETITLE_DESC"
+					filter="string" />
+
+				<field name="sitedescription"  type="text" default=""
+					label="TPL_theme_FIELD_DESCRIPTION_LABEL"
+					description="TPL_theme_FIELD_DESCRIPTION_DESC"
+					filter="string" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

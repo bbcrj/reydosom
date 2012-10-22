@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="1.6.0"
+	client="site"
+	method="upgrade">
+	<name>YJ Pop Login</name>
+	<author>Youjoomla</author>
+	<creationDate>12-19-2011</creationDate>
+	<copyright>Youjoomla LLC.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>youjoomla@gmail.com</authorEmail>
+	<authorUrl>www.youjoomla.com</authorUrl>
+	<version>1.0.1</version>
+	<description>
+		<![CDATA[<style type="text/css" media="all">#wrap1 {padding:0px 0px 4px 0px;}h1 {clear:both;font-family: Arial Narrow,sans-serif;font-size:18px;margin:0px 0px 12px 0px;padding:0px 0px 1px 10px;color:#C64934;}.wrap2 {background:#F7F7F7;display:block;overflow:hidden;padding:15px;}</style><div id="holdthem"><h1>YJ Pop Login Module for Joomla 1.6x and UP</h1><br /><div class="wrap2"><a title="Visit the official website!" href="http://www.youjoomla.com"> <img style="float:left;border:1px solid #CFCFCF;margin:0px 15px 4px 22px;" src="../modules/mod_yj_pop_login/images/yj_extensions.jpg" border="0" alt="Logo" /></a>]]>
+	</description>
+	<languages>
+		<language tag="en-GB">en-GB.mod_yj_pop_login.ini</language>
+		<language tag="en-GB">en-GB.mod_yj_pop_login.sys.ini</language>
+	</languages>
+	<files>
+		<filename module="mod_yj_pop_login">mod_yj_pop_login.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+		<folder>images</folder>
+		<folder>src</folder>
+		<folder>css</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+					<option value="0">Never</option>
+				</field>
+				<field name="@spacer" type="spacer" default="" label="" description="" />
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+				<field name="pretext" type="textarea" filter="safehtml" cols="50" rows="7" 
+		
+		default="" 
+		
+		
+		label="Pre-text" description="PARAMPRETEXT" />
+				<field name="posttext" type="textarea" filter="safehtml" cols="50" rows="7" label="Post-text" description="PARAMPOSTTEXT" />
+				<field name="login" type="menuitem" default="" disable="separator" label="Login Redirection URL" description="PARAMLOGINREDIRECTURL">
+					<option value="">JDEFAULT</option>
+				</field>
+				<field name="logout" type="menuitem" default="" disable="separator" label="Logout Redirection URL" description="PARAMLOGOUTREDIRECTURL">
+					<option value="">JDEFAULT</option>
+				</field>
+				<field name="greeting" type="radio" default="1" label="Greeting" description="Show/Hide the simple greeting text">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="name" type="list" default="0" label="Name/Username">
+					<option value="0">Username</option>
+					<option value="1">Name</option>
+				</field>
+				<field name="usesecure" type="radio" default="0" label="Encrypt Login Form" description="Submit encrypted login data">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,44 @@
+========================================================================================================================================
+Plugin Cielo Virtuemart 2.0
+Loja Weber - Webgenium
+========================================================================================================================================
+
+Passo 1 - Habilite o plugin aqui Administrar Plugins
+Passo 2 - Instale Plugin por esta tela Métodos de pagamento
+Passo 2.1 - Clique em Novo Método de Pagamento e preencha as informações:
+* Nome do Pagamento: Cartões Visa, Master, Elo, Diners ou Discover ( Cielo )
+* Publicado: Sim
+* Descrição do pagamento: Pague com cartão de crédito
+* Método de pagamento: Cielo
+* Grupo de Compradores: -default-
+Passo 2.2 - Clique em Salvar.
+Passo 3 - Na aba configurações, preencha os dados:
+* Logotipos:
+* Modo de teste ( sim ou não )
+Teste 
+* Afiliação
+* Chave de Acesso
+
+Produção
+* Afiliação
+* Chave de Acesso
+
+* Valor mínimo
+* Máx. Parcelas Sem Juros	
+* Máx. Parcelas Total	
+* Tipo Parcelamento Juros ( Cliente ou Loja )
+* Tipo da Autorização	
+* Capturar Transação ou não	
+* Taxa Crédito à Vista	
+* Taxa Parcelado	
+* Taxa Débito	
+* Aprovado: Status do Pedido quando Aprovada a transação
+* Cancelado: Status do Pedido quando Cancelada a transação
+* Aguardando Pagto: Status do Pedido quando transação Pendente
+* Cartões aceitos na loja
+
+
+========================================================================================================================================
+Contato: Luiz Felipe Weber
+weber@weber.eti.br
+========================================================================================================================================

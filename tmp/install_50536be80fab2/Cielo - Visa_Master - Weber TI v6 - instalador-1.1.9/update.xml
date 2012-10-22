@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<vmupdate>
+		<forversion>1.1.9</forversion>
+		<toversion>1.1.9</toversion>
+		<releasedate>25 Junho 2012</releasedate>
+		<description>Cielo Virtuemart v6 - Weber TI Webgenium - Loja Weber - Webgenium
+		</description>
+		<files>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/index.html</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/ps_pagamento_visa.php</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/ps_pagamento_visa.cfg.php</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/imagem_pagamento/index.html</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/imagem_pagamento/amex_cartao.jpg</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/imagem_pagamento/cielo.jpg</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/imagem_pagamento/diners_cartao.jpg</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/imagem_pagamento/elo_cartao.jpg</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/imagem_pagamento/visa_cartao.jpg</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/imagem_pagamento/maestro_cartao.jpg</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/imagem_pagamento/discover_cartao.jpg</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/imagem_pagamento/master_cartao.jpg</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/imagem_pagamento/visa_electron_cartao.jpg</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/index.html</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/bg_checkout.png</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/css_pagamento.css</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/includes_visa.php</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/includes_visa.php</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/pgv.php</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/redireciona_visa.php</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/retorno_visa.php</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/visa_master.js</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/ssl/VeriSignClass3PublicPrimaryCertificationAuthority-G5.crt</file>
+			<file copy="overwrite_create">administrator/components/com_virtuemart/classes/payment/pagamento_visa/ssl/.htaccess</file>
+		</files>
+		<queries>			
+		</queries>
+</vmupdate>

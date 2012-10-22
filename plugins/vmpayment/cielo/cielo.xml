@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<install version="1.5" type="plugin" group="vmpayment" method="upgrade">
+    <name>Cielo</name>
+    <creationDate>Abril 2012</creationDate>
+    <author>Luiz Felipe Weber</author>
+    <authorUrl>http://www.weber.eti.br</authorUrl>
+    <copyright>Copyright (C) 2012. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+    <version>1.0</version>
+    <description>Plugin de pagamento Cielo
+	&lt;div style=&quot;background:#E5F5FF;border:1px solid #99D6FF;padding:10px;margin:10px; -box-shadow: inset 0px 0px 10px #fff, 0px 0px 5px #ccc; -webkit-box-shadow: inset 0px 0px 10px #fff, 0px 0px 5px #ccc; -moz-box-shadow: inset 0px 0px 10px #fff, 0px 0px 5px #ccc;&quot;&gt;
+		&lt;h1&gt;Plugin de pagamento Cielo para Virtuemart 2.0.&lt;/h1&gt;
+		&lt;div&gt;&lt;em&gt;Passo 1&lt;/em&gt; - Habilite o plugin aqui &lt;a href=&quot;index.php?option=com_plugins&amp;view=plugins&amp;filter_search=pagamento&quot;&gt;Administrar Plugins&lt;/a&gt;&lt;/div&gt;
+		&lt;div&gt;&lt;em&gt;Passo 2&lt;/em&gt; - Instale Plugin por esta tela &lt;a href=&quot;index.php?option=com_virtuemart&amp;view=paymentmethod&quot;&gt;Métodos de pagamento&lt;/a&gt;&lt;/div&gt;
+		&lt;div&gt;&lt;em&gt;Passo 2.1&lt;/em&gt; - &lt;b&gt;Clique em Novo Método de Pagamento&lt;/b&gt; e preencha as informações:&lt;/div&gt;
+		&lt;div&gt;* Nome do Pagamento: &lt;b&gt;Cartões Visa, Master, Elo, Diners ou Discover ( Cielo )&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Publicado: &lt;b&gt;Sim&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Descrição do pagamento: &lt;b&gt;Pague com cartão de crédito&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Método de pagamento: &lt;b&gt;Cielo&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Grupo de Compradores: &lt;b&gt;-default-&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;&lt;em&gt;Passo 2.2&lt;/em&gt; - &lt;b&gt;Clique em Salvar&lt;/b&gt;.&lt;/div&gt;
+		&lt;div&gt;&lt;em&gt;Passo 3&lt;/em&gt; - Na &lt;b&gt;aba configurações&lt;/b&gt;, preencha os dados:&lt;/div&gt;
+		&lt;div&gt;* Logotipos: &lt;b&gt;&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Email de Configuração da loja: &lt;b&gt;Email da conta no Pagamento Digital&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Chave da Loja: &lt;b&gt;Menu Ferramentas do PgDigital&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Chave Única de Acesso da Loja: &lt;b&gt;Menu Ferramentas do PgDigital&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Limite de Parcelamento: &lt;b&gt;Por padrão é 24&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Mensagem de agradecimento após a compra de Parcelamento: &lt;b&gt;Opcional&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Mensagem de agradecimento após a compra de Parcelamento: &lt;b&gt;Opcional&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Aprovado: &lt;b&gt;Status do Pedido quando Aprovada a transação&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Cancelado: &lt;b&gt;Status do Pedido quando Cancelada a transação&lt;/b&gt;&lt;/div&gt;
+		&lt;div&gt;* Aguardando Pagto: &lt;b&gt;Status do Pedido quando transação Pendente&lt;/b&gt;&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div&gt;	Licença: &lt;a href=&quot;http://www.gnu.org/licenses/gpl-3.0.html&quot;&gt;GNU/GPL v3&lt;/a&gt; - Desenvolvido por Luiz Weber - &lt;a href=&quot;http://weber.eti.br&quot;&gt;Weber TI&lt;/a&gt; | &lt;a href=&quot;http://webgenium.com.br&quot;&gt;Webgenium System&lt;/a&gt;
+	
+	</description>
+    <files>
+        <filename plugin="cielo">cielo.php</filename>
+        <filename>retorno.php</filename>
+        <filename>licença-gplv3.txt</filename>
+        <filename>leiame.txt</filename>
+        <filename>gplv3-license.txt</filename>
+        <filename>logo_cielo.jpg</filename>
+	   <folder>imagens</folder>	   
+	   <folder>language</folder>	   
+	   <folder>assets</folder>
+	   <folder>ssl</folder>
+    </files>
+	
+    <params addpath="/administrator/components/com_virtuemart/elements">
+        <param type="vmjpluginwarning" />
+        <param	name="payment_logos" type="vmfiles" label="VMPAYMENT_STANDARD_LOGOS"
+		description="VMPAYMENT_STANDARD_LOGOS_DESC"
+		directory="/images/stories/virtuemart/payment"
+		default="default" hide_default="1" hide_none="1"
+		stripext="0"   exclude="^_" />	        
+
+		<param name="modo_teste" type="list" default="1" label="Modo de teste">
+            <option value="1">Sim</option>
+            <option value="0">Não</option>
+        </param>
+
+		<param type="spacer" default="Teste" />
+		<param name="afiliacao_teste" type="text" size="20"  label="Afiliação" description="Informe aqui o código da afiliação da loja na Cielo ( teste )" default="1001734898"/>
+		<param name="chave_teste" type="text" size="30"  label="Código da loja" description="Informe aqui a chave de acesso de produção ( obtém-se durante o processo de homologação )  da loja na Cielo ( teste )" default="e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832"/>
+
+		<param type="spacer" default="Produção" />
+		<param name="afiliacao_producao" type="text" size="20"  label="Afiliação" description="Informe aqui o código da afiliação da loja na Cielo ( teste )" />
+		<param name="chave_producao" type="text" size="30"  label="Código da loja" description="Informe aqui a chave de acesso de produção ( obtém-se durante o processo de homologação )  da loja na Cielo ( teste )" />
+
+		<param type="spacer" default="Outras configurações" />
+		<param name="nome_impresso_cartao" type="list" default="0" label="Mostrar Nome Impresso Cartão">
+            <option value="0">Não</option>
+            <option value="1">Sim</option>
+		</param>
+
+        <param name="valor_minimo" type="text" size="10"  label="Valor mínimo" description="Valor mínimo para compras na loja." default="0.01"/> 
+        <param name="max_parcela_sem_juros" type="text" size="10"  label="Máx. parcelas Sem Juros" description="Número total de parcelas sem juros" default="3"/> 
+        <param name="max_parcela_com_juros" type="text" size="10"  label="Máx. parcelas Com Juros" description="Número total de parcelas com juros" default="12" /> 
+		<param name="tipo_parcelamento" type="list" default="1" label="Tipo de Parcelamento ( Juros )" description="Cobrança de juros do parcelamento para o emissor ou o cliente">
+            <option value="04">Loja que paga os juros</option>
+            <option value="06">Cliente que paga os juros</option>
+        </param>
+
+		<param name="tipo_autorizacao" type="list" default="2" label="Tipo de Autorização">
+            <option value="0">0 - Não Autorizar</option>
+            <option value="1">1 - Autorizar Somente autenticada</option>
+            <option value="2">2 - Autorizar Autenticada e não-autenticada</option>
+            <option value="3">3 - Autorizar sem passar por autenticação ( crédito somente )</option>
+        </param>
+		
+		<param name="capturar" type="list" default="1" label="Capturar Transação ou não">
+            <option value="0">Não</option>            
+            <option value="1">Sim</option>
+        </param>
+		
+		<param name="taxa_credito" type="text" size="12"  label="Taxa Crédito à vista" description="Taxa para transações 1x no Crédito (1.99 = 1,99%)" default="1.99" />
+		<param name="taxa_parcelado" type="text" size="12"  label="Taxa Parcelado" description="Taxa para transações parcelado em mais de 2x no Crédito (1.99 = 1,99%)" default="1.99"/>
+		<param name="taxa_debito" type="text" size="12"  label="Taxa Débito" description="Taxa para transações nos cartões de débito (1.99 = 1,99%)" default="1.99"/>	
+		
+        <param type="spacer" default="Status postado pela Cielo" />
+        <param name="transacao_concluida" type="vmorderstate" default="C" label="Aprovado" description="Status aprovado dentro do seu Virtuemart" />
+        <param name="transacao_nao_finalizada" type="vmorderstate" default="A" label="Aguardando Pagto" description="Status Aguardando Pagto dentro do seu Virtuemart" />
+        <param name="transacao_cancelada" type="vmorderstate" default="X" label="Cancelado" description="Status Cancelado dentro do seu Virtuemart" />
+		
+		<param type="spacer" default="Cartões Aceitos" />		
+		<param name="cartao_visa" type="list" default="1" label="Visa">
+            <option value="0">Não</option>            
+            <option value="1">Sim</option>
+        </param>
+		<param name="cartao_master" type="list" default="1" label="Master">
+            <option value="0">Não</option>            
+            <option value="1">Sim</option>
+        </param>
+		<param name="cartao_elo" type="list" default="1" label="Elo">
+            <option value="0">Não</option>            
+            <option value="1">Sim</option>
+        </param>
+		<param name="cartao_diners" type="list" default="1" label="Diners">
+            <option value="0">Não</option>            
+            <option value="1">Sim</option>
+        </param>
+		<param name="cartao_discover" type="list" default="1" label="Discover">
+            <option value="0">Não</option>            
+            <option value="1">Sim</option>
+        </param>
+		<param name="cartao_amex" type="list" default="0" label="Amex">
+            <option value="0">Não</option>            
+            <option value="1">Sim</option>
+        </param>
+
+		<param name="cartao_maestro" type="list" default="0" label="Cartão Maestro ( Débito )">
+            <option value="0">Não</option>            
+            <option value="1">Sim</option>
+        </param>
+
+		<param name="cartao_visa_electron" type="list" default="0" label="Visa Electron ( Débito )">
+            <option value="0">Não</option>            
+            <option value="1">Sim</option>
+        </param>
+		
+	
+	<param type="spacer" default="Extras" />		
+
+	<param name="countries" type="vmcountries"  scope="com_virtuemart" default="" label="Países" description="Países para validar este pagamento"/>
+	<param name="min_amount" type="text"  label="Mínimo da Compra" description="Valor mínimo da compra pra utilizar a Cielo" />
+	<param name="max_amount" type="text"  label="Máximo da Compra" description="Valor Máximo da compra para utilizar a Cielo" />
+	<param name="cost_per_transaction" type="text"  label="Custo por Transação" description="Custo total por transação" />
+	<param name="cost_percent_total" type="text"  label="Custo percentual total" description="Custo percentual total pela venda" />
+	<param name="tax_id" type="vmtaxes" scope="com_virtuemart"  label="Tarifa/Imposto" description="Imposto ou tarifa aplicada" />
+	
+		
+	<param type="spacer" default="Licença: &lt;a href='http://www.gnu.org/licenses/gpl-3.0.html'&gt;GNU/GPL v3&lt;/a&gt; - Desenvolvido por Luiz Weber - &lt;a href='http://weber.eti.br'&gt;Weber TI&lt;/a&gt; | &lt;a href='http://webgenium.com.br'&gt;Webgenium System&lt;/a&gt;" />
+    </params>
+</install>

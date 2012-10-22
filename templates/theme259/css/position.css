@@ -1,0 +1,390 @@
+/**
+
+ * @author ( Angie Radtke )
+ * @package Joomla
+ * @subpackage Accessible-Template-Beez
+ * @copyright Copyright (C) 2005 - 2009 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant to the
+ * GNU General Public License, and as distributed it includes or is derivative
+ * of works licensed under the GNU General Public License or other free or open
+ * source software licenses. See COPYRIGHT.php for copyright notices and
+ * details.
+ */
+
+/* not ready */
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	padding: 0px;
+	position:relative;
+	}
+
+body
+{
+  font:normal 12px/18px Arial, Helvetica, sans-serif; color:#7c7574;
+}
+
+
+/*===== button =====*/
+
+.button , .vm-button-correct , .show_cart a {
+	border:none;
+	background:url(../images/button1.gif) left bottom repeat-x #d22d01;
+	color:#fff;
+	text-transform:none;
+	text-decoration:none;
+	display:inline-block;
+	font-size:12px;
+	line-height:27px !important;
+	padding:0px 10px 0px 10px;
+	height:28px;
+	width:auto;
+	font-style:normal !important;
+	margin:0px 0 0 0;
+	text-align:center;
+	cursor:pointer;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	float:none;
+	letter-spacing:0px;
+	border-radius:3px;
+	
+}
+@-moz-document url-prefix() {
+  .button , .vm-button-correct { padding-bottom:3px;}
+}
+.button:hover , .vm-button-correct:hover, .show_cart a:hover { background:url(../images/button1.gif) left top repeat-x #48413f; text-decoration:none;}
+
+select.inputbox { width:auto; height:auto; padding:0 0 0 5px; margin:1px 0 0 0; float:none;}
+select.inputbox option { text-align:left; padding-left:8px;}
+.inputbox { width:200px; 	height:18px; padding:4px 10px 4px 10px; font:normal 12px/20px Arial, Helvetica, sans-serif; color:#000; border:1px solid #e5e5e5; margin:0; float:left; }
+
+.ask-a-question-view,.manufacturer-details-view .spacer{padding:10px; padding-top:10px;}
+#askform .inputbox { float:left;}
+#askform .paddingtop { padding-top:10px;}
+#askform label { overflow:hidden; width:100%; margin-bottom:10px; display:inline-block;}
+#askform label span { float:left; width:55px; vertical-align:middle; padding-top:10px;}
+.ask-a-question-view .form-field textarea.field{width:394px;background:#fff url(../images/vmgeneral/default_bg.jpg) bottom repeat-x;border:solid #e5e5e5 1px; color:#777;text-align:left;padding:12px; max-width:500px; height:110px;}
+.ask-a-question-view .form-field .submit{width:418px; padding-top:10px;}
+
+textarea.virtuemart{background:#fff;border:solid #e5e5e5 1px;border-radius:0;color:#777;text-align:left;padding:5px 5px 4px;}
+input.vm-default {background: url(../images/vmgeneral/backgrounds.png) top repeat-x;border:solid #e5e5e5 1px;border-radius:0; color:#777;text-decoration:none;padding:5px 5px 4px;}
+
+
+
+.virtuemart_search { padding-bottom:20px; overflow:hidden;}
+.virtuemart_search .button { float:left; margin-left:5px;}
+
+
+.product-summary { margin:0!important;}
+.product-summary img { width:175px!important;}
+.manufacturer-details-view { width:330px; height:150px;}
+.manufacturer-details-view a { color:#e43405; font-size:15px;}
+/* ###################### general ###################### */
+
+#back {
+	margin: 0;
+	padding:0px;
+	}
+
+#contentarea,
+#contentarea2 {
+	position:relative;
+	overflow:hidden;
+	padding:0px 20px !important;
+	margin:0;
+	}
+
+#wrapper {
+	width:53%;
+	float:left;
+	position:relative;
+	}
+
+#wrapper2 {
+	width:72%;
+	float:left;
+	position:relative;
+	padding-bottom:20px;
+	}
+	
+	#wrapper2 .item-page {
+		max-width:660px;
+		}
+	
+#main {
+	padding: 0px 0px 20px 0px;
+	position: relative;
+	min-height:120px;
+	margin-top:-10px;
+	}
+
+
+.unseen,
+.hidelabeltxt
+{
+    display: inline;
+    height: 0px;
+    left: -3000px;
+    position: absolute;
+    top: -2000px;
+    width: 0px;
+}
+
+#content {
+
+	
+	}
+
+
+/* ++++++++++++++  nav after content  ++++++++++++++ */
+
+
+/* ++++++++++++++  nav before content  ++++++++++++++ */
+.left1
+{
+    padding:0px 0 0 0px;
+    float: left;
+    margin:10px 3% 10px 0px;
+    width: 21%;
+    position:relative
+}
+
+.leftbigger
+{
+     width:25%
+}
+
+
+/* ###################### header ###################### */
+
+.skiplinks,
+.skiplinks li
+{
+    display: inline;
+    height: 0px;
+    line-height:0;
+    padding:0 !important;
+}
+
+.skiplinks li a.u2
+{
+    display: inline;
+    height: 0px;
+    left: -3000px;
+    position: absolute;
+    top: -2000px;
+    width: 0px;
+
+}
+
+.skiplinks li a.u2:active,
+.skiplinks li a.u2:focus
+{
+    position:absolute;
+    width:13em;
+    top:10px;
+    left:10px;
+    line-height:1.5em;
+    padding:5px;
+    font-weight:bold;
+    height:3em;
+
+}
+
+.wrap
+{
+    border: 0;
+    clear: both;
+    float: none;
+    font-size: 1px;
+    height: 0;
+    line-height: 1px;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+
+h1#logo
+{
+        font-size:3.5em;
+}
+
+#logo
+{
+    
+}
+
+#logo img {
+	border:none;
+}
+
+#logo span
+{
+        padding-left:2px
+}
+
+#logo span.header1
+{
+        font-size:0.4em;
+        display:block;
+        top:0em;
+        line-height:0.8em
+}
+
+.logoheader
+{
+        margin:0;
+        padding:0;
+        text-align:left;
+        font-weight:normal;
+        line-height:1.5em;
+        
+
+}
+
+#line
+{       padding:5px 0px 2px 2px;
+        position:absolute;
+        right :20px;
+        top:5em;
+        max-width:38em;
+
+}
+
+
+/* ++++++++++++++  button for closing right column  ++++++++++++++ */
+
+#close
+{
+        margin-right:0px;
+        font-size:0.85em;
+        text-transform:uppercase;
+}
+
+#close span
+{
+    position:absolute;
+    right: 20px;
+    z-index:10000;
+    top:5px;
+    width:7em;
+    font-weight:bold;
+    text-align:right;
+    line-height:1.5em;
+    padding:5px 2px 5px 5px
+}
+
+/* ###################### content ###################### */
+
+/* ++++++++++++++  position  ++++++++++++++ */
+
+.blog-featured
+{
+        padding: 0;
+}
+
+.items-leading
+{
+        overflow:hidden;
+}
+
+.item-separator
+{
+        display: none;
+        margin: 0px;
+}
+
+.shownocolumns
+{
+        width:98% !important;
+}
+
+#top
+{
+        margin:0 0 20px 0;
+        overflow:hidden
+}
+
+/* ++++++++++++++  blog  ++++++++++++++ */
+
+.cols-1
+{
+        display: block;
+        float: none !important;
+        margin: 0;
+}
+
+.cols-2 .column-1
+{
+        width:46%;
+        float:left;
+}
+
+.cols-2 .column-2
+{
+        width:46%;
+        float:right;
+        margin:0
+}
+
+.cols-3 .column-1
+{
+        float:left;
+        width:29%;
+        padding:0px 5px;
+        margin-right:4%
+
+}
+.cols-3 .column-2
+{
+        float:left;
+        width:29%;
+        margin-left:0;
+        padding:0px 5px
+}
+.cols-3 .column-3
+{
+        float:right;
+        width:29%;
+        padding:0px 5px
+}
+
+
+.column-1,
+.column-2,
+.column-3 {
+	padding:0;
+	}
+
+.column-2 {
+	width:55%;
+
+	}
+
+.column-3 {width:30%;}
+
+.blog-more {padding:10px 5px;}
+
+/* ++++++++++++++  footer  ++++++++++++++ */
+
+#bottom {overflow:hidden;}
+
+
+
+.box1 {width:35%;}
+.box2 {width:32%;}
+.box3 {float:right;}
+
+#footer-inner {
+	max-width:1025px;
+	margin:0 auto;
+	font-size:0.8em;
+	padding:10px 15px 15px 10px;
+	}

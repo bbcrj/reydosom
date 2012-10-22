@@ -1,0 +1,204 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Copyright ©2006-2009 Youjoomla LLC. All Rights Reserved.           ||
+|| #################################################################### ||
+\*======================================================================*/
+/*opneing links container*/
+.poping_links {
+	display:block;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	color:#6a6a6a;
+	font:normal 12px/20px Arial, Helvetica, sans-serif;
+}
+.moduletable_LoginForm  { margin:0; padding:0 0 0 0px; background:none; border-left:none; overflow:hidden; text-align:right; width:300px; height:30px; position:absolute; right:-2px; top:85px; z-index:99; }
+#form-login { overflow:hidden; padding-top:6px; text-align:left; color:#04225c; }
+#form-login span { display:block; padding-bottom:5px;}
+
+#login_pop .button {
+border:none !important;
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:normal;
+		letter-spacing:0px;
+		line-height:26px!important;
+		vertical-align:top;
+		display:block;
+		background:#1c1c1c;
+		color:#fff !important;
+		text-transform:none;
+		width:83px;
+		vertical-align:middle;
+		height:26px;
+		padding:0 0 1px 0px;
+		margin:0px 0px 0 0px;
+		text-align:center;
+		 position:relative;
+	}
+	#login_pop .button:hover {
+		background:#88b817;
+		color:#fff !important;
+		text-decoration:none;
+	}
+	
+	@-moz-document url-prefix() {
+  #login_pop .button { padding-bottom:3px;}
+}
+		
+/* opening buttons*/
+#openLogin, #openReg {
+	display:inline-block;
+	height:auto;
+	width:auto;
+	text-align:left;
+	background:none;
+	border:none;
+	color:#7faf1b;
+	text-decoration:underline;
+	margin:0;
+	font:bold 12px/20px Arial, Helvetica, sans-serif;
+}
+#openReg { color:#7faf1b;}
+#openLogin:hover, #openReg:hover {
+	color:#6a6a6a;
+	text-decoration:none;
+}
+
+/* login box*/
+#login_pop {
+	position:fixed;
+	width:250px;
+	height:225px;
+	top:250px;
+	background:#fff;
+	color:#ccc;
+	text-align:left;
+	padding:10px;
+	border:10px solid #7faf1b;
+	z-index:1000000;
+	border-radius:3px;
+}
+/* registration box */
+#reg_pop {
+	position:fixed;
+	width:455px;
+	height:291px;
+	top:250px;
+	background:#fff;
+	color:#ccc;
+	text-align:left;
+	padding:20px 10px 10px 20px;
+	border:10px solid #7faf1b;
+	z-index:1000000;
+	border-radius:3px;
+}
+#reg_pop .popyjreg{
+	overflow:hidden;
+	display:block;
+}
+#reg_pop .popyjreg_ins{
+	clear:both;
+	overflow:hidden;
+	display:block;
+}
+
+#reg_pop .inputbox {
+	width:220px;
+	float:right;
+	margin-bottom:5px;
+	margin-right:40px;
+	margin-top:5px;
+
+}
+.popyjreg_ins #name.inputbox { margin-top:0!important;}
+#reg_pop label{
+	float:left;
+	display:block;
+	color:#6a6a6a;
+	font:normal 12px/18px Arial, Helvetica, sans-serif;
+	padding-top:5px;
+}
+p.information_td{
+	clear:both;
+	display:block;
+	color:#04225c;
+}
+/* closing buttons*/
+#closeReg, #closeLogin {
+	display:inline-block;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:5px;
+	right:5px;
+	text-align:center;
+	line-height:25px;
+	background:url(../images/fancy_close.png) left top no-repeat;
+	color:#000;
+	text-decoration:none;
+}
+/* input boxes and rest */
+#yjpop_passwd {
+	margin:0 0 10px 0;
+	color:#04225c;
+}
+#yjpop_username {
+	margin:0 0 5px 0;
+	color:#04225c;
+}
+#yjpop_remember {
+	padding:0; margin:2px 5px 0 0;
+	width:12px; height:12px;
+	float:left;
+	border:none;
+	font:normal 0/0 Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+}
+#login_pop .button {
+	margin:10px 0;
+}
+.Forgot { list-style-type:none; margin:0; padding:0; overflow:hidden;}
+.Forgot li a { font:normal 12px/18px Arial, Helvetica, sans-serif; color:#6a6a6a;}
+/* logeedin class */
+#login-form2 { float:right; text-align:right;}
+#logins span {
+	text-align:right !Important;
+	display:inline-block;
+	height:auto !Important;
+	overflow:hidden;
+	clear:both;
+	color:#79a91d;
+	padding:5px 10px 0 0;
+}
+#login-form2 .button  {
+border:none !important;
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight:normal;
+		letter-spacing:0px;
+		line-height:26px!important;
+		vertical-align:top;
+		display:block;
+		background:#1c1c1c;
+		color:#fff !important;
+		text-transform:none;
+		width:83px;
+		vertical-align:middle;
+		height:26px;
+		padding:0 0 1px 0px;
+		margin:0px 0px 0 0px;
+		text-align:center;
+		 position:relative;
+		 border-radius:3!important;
+	}
+	#login-form2 .button:hover {
+		background:#88b817; 
+		color:#fff !important;
+		text-decoration:none;
+	}
+
+#login-form2 .button {
+	margin:0 0;
+	float:right;
+}

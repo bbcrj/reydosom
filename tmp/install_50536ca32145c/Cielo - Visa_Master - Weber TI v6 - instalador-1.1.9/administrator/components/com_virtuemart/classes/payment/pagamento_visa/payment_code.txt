@@ -1,0 +1,19 @@
+<?php
+include (JPATH_COMPONENT_ADMINISTRATOR.'/classes/payment/pagamento_visa/pgv.php');
+
+$db1 = new ps_DB();
+$db1->query("SELECT * FROM #__vm_order_item WHERE order_id = '".$db->f('order_id')."'");
+
+$db2 = new ps_DB();
+$db2->query("SELECT order_total FROM #__vm_orders WHERE order_id = '".$db->f('order_id')."'");
+
+$pgv = new pgv(array(
+  'orderid' => $db->f("order_id"),						# id do pedido
+  'id_ped' => $user->user_id,							# id do usuário
+));
+$pgv->campos(array(
+  'tot_ped' => $db->f("order_total")					# total do pedido	
+));
+
+$pgv->mostra($db->f('order_total'));
+?>

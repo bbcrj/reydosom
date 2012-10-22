@@ -1,0 +1,22 @@
+<?php if( !defined( '_VALID_MOS' ) && !defined( '_JEXEC' ) ) die( 'Direct Access to '.basename(__FILE__).' is not allowed.' ); 
+
+define ('PGV_MODO_TESTE', 'true');
+define ('PGV_AFILIACAO_TESTE', '1001734898');
+define ('PGV_CHAVE_TESTE', 'e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832');
+define ('PGV_URL_RETORNO_TESTE', 'https://www.seusite.com.br/administrator/components/com_virtuemart/classes/payment/pagamento_visa/retorno_visa.php');
+define ('PGV_AFILIACAO', '');
+define ('PGV_CHAVE', '');
+define ('PGV_URL_RETORNO', '');
+define ('PGV_VALOR_MINIMO_PARCELA', '0.01');
+define ('PGV_LIMITE_PARCELAMENTO_SEM_JUROS', '3');
+define ('PGV_LIMITE_PARCELAMENTO', '3');
+define ('PGV_PARCELAMENTO_JUROS', '04');
+define ('PGV_AUTORIZAR', '2');
+define ('PGV_CAPTURAR', 'true');
+define ('PGV_TAXA_CREDITO', '0.035');
+define ('PGV_TAXA_PARCELADO', '0.05');
+define ('PGV_TAXA_DEBITO', '0.02');
+define ('PGV_TRANSACAO_CONCLUIDA', 'C');
+define ('PGV_TRANSACAO_NAO_FINALIZADA', 'P');
+define ('PGV_TRANSACAO_CANCELADA', 'P');
+define ('PGV_CARTOES_ACEITOS', 'a:5:{i:0;s:4:"visa";i:1;s:6:"master";i:2;s:3:"elo";i:3;s:6:"diners";i:4;s:8:"discover";}');

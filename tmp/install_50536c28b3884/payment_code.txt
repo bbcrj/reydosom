@@ -1,0 +1,13 @@
+<?php
+include (JPATH_COMPONENT_ADMINISTRATOR.'/classes/payment/banco_do_brasil/pbbb.php');
+
+$pgv = new pbbb(array(
+  'orderid' => $db->f("order_id"),						# id do pedido
+  'id_ped' => $user->user_id,							# id do usuário
+));
+$pgv->campos(array(
+  'tot_ped' => $db->f("order_total")					# total do pedido	
+));
+
+$pgv->mostra($db->f('order_total'));
+?>
