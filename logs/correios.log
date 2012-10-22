@@ -3653,3 +3653,180 @@ message: _consultaCorreios  - Encomendas Sedex Error: There is no Postal Code in
 
 2012-10-16 15:32:47
 message: getCosts - Encomendas Sedex Error:  - 
+
+2012-10-22 14:20:27
+message: checkConditions  - Encomendas Sedex  -  | emptyCart: 1 | task: 
+
+2012-10-22 14:20:27
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:20:30
+message: checkConditions  - Encomendas Sedex  -  | emptyCart: 1 | task: 
+
+2012-10-22 14:20:30
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:26:36
+message: checkConditions  - Encomendas Sedex  -  | emptyCart: 1 | task: edit_shipment
+
+2012-10-22 14:26:36
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:26:36
+message: checkConditions  - Encomendas PAC 0 -  | emptyCart: 1 | task: edit_shipment
+
+2012-10-22 14:26:36
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:26:41
+message: checkConditions  - Encomendas Sedex  -  | emptyCart: 1 | task: editpayment
+
+2012-10-22 14:26:41
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:26:47
+message: checkConditions  - Encomendas Sedex  -  | emptyCart: 1 | task: 
+
+2012-10-22 14:26:47
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:26:47
+message: checkConditions  - Encomendas Sedex 0 -  | emptyCart: 1 | task: 
+
+2012-10-22 14:26:47
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:27:07
+message: checkConditions  - Encomendas Sedex  -  | emptyCart: 1 | task: confirm
+
+2012-10-22 14:27:07
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:27:07
+message: checkConditions  - Encomendas Sedex 0 -  | emptyCart:  | task: confirm
+
+2012-10-22 14:27:07
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:27:40
+message: checkConditions  - Encomendas Sedex  -  | emptyCart:  | task: 
+
+2012-10-22 14:27:40
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:28:07
+message: checkConditions  - Encomendas Sedex  -  | emptyCart:  | task: 
+
+2012-10-22 14:28:07
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:28:40
+message: checkConditions  - Encomendas Sedex  -  | emptyCart:  | task: 
+
+2012-10-22 14:28:40
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:28:43
+message: checkConditions  - Encomendas Sedex  -  | emptyCart: 1 | task: viewJS
+
+2012-10-22 14:28:43
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:28:45
+message: checkConditions  - Encomendas Sedex  -  | emptyCart: 1 | task: 
+
+2012-10-22 14:28:45
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:28:45
+message: checkConditions  - Encomendas Sedex 0 -  | emptyCart: 1 | task: 
+
+2012-10-22 14:28:45
+message: getCosts - Encomendas Sedex Error: 0 - 
+
+2012-10-22 14:29:19
+message: checkConditions  - Encomendas Sedex  -  | emptyCart: 1 | task: edit_shipment
+
+2012-10-22 14:29:19
+message: checkConditions  - Encomendas PAC  -  | emptyCart: 1 | task: edit_shipment
+
+2012-10-22 14:29:19
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:29:25
+message: checkConditions  - Encomendas PAC  -  | emptyCart: 1 | task: editpayment
+
+2012-10-22 14:29:25
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:29:29
+message: checkConditions  - Encomendas PAC  -  | emptyCart: 1 | task: 
+
+2012-10-22 14:29:29
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:29:29
+message: checkConditions  - Encomendas PAC 0 -  | emptyCart: 1 | task: 
+
+2012-10-22 14:29:29
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:29:34
+message: checkConditions  - Encomendas PAC  -  | emptyCart: 1 | task: 
+
+2012-10-22 14:29:34
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:29:34
+message: checkConditions  - Encomendas PAC 0 -  | emptyCart: 1 | task: 
+
+2012-10-22 14:29:34
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:29:42
+message: checkConditions  - Encomendas PAC  -  | emptyCart: 1 | task: 
+
+2012-10-22 14:29:42
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:29:42
+message: checkConditions  - Encomendas PAC 0 -  | emptyCart: 1 | task: 
+
+2012-10-22 14:29:42
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:29:53
+message: checkConditions  - Encomendas PAC  -  | emptyCart: 1 | task: 
+
+2012-10-22 14:29:53
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:29:53
+message: checkConditions  - Encomendas PAC 0 -  | emptyCart: 1 | task: 
+
+2012-10-22 14:29:53
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:30:00
+message: checkConditions  - Encomendas PAC  -  | emptyCart: 1 | task: confirm
+
+2012-10-22 14:30:00
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:30:00
+message: checkConditions  - Encomendas PAC 0 -  | emptyCart:  | task: confirm
+
+2012-10-22 14:30:00
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:30:21
+message: checkConditions  - Encomendas PAC  -  | emptyCart:  | task: 
+
+2012-10-22 14:30:21
+message: getCosts - Encomendas PAC Error: 0 - 
+
+2012-10-22 14:30:38
+message: checkConditions  - Encomendas PAC  -  | emptyCart:  | task: 
+
+2012-10-22 14:30:38
+message: getCosts - Encomendas PAC Error: 0 - 

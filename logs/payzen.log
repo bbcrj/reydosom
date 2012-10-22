@@ -125,3 +125,27 @@ error: plgVmOnPaymentNotification START
 
 2012-10-15 16:35:04
 error: plgVmOnPaymentNotification -- Another method was selected, do nothing : 
+
+2012-10-22 14:27:19
+error: plgVmOnPaymentNotification START 
+
+2012-10-22 14:27:19
+error: plgVmOnPaymentNotification -- Another method was selected, do nothing : 
+
+2012-10-22 14:27:35
+error: plgVmOnPaymentNotification START 
+
+2012-10-22 14:27:35
+error: plgVmOnPaymentNotification -- Another method was selected, do nothing : 
+
+2012-10-22 14:30:11
+error: plgVmOnPaymentNotification START 
+
+2012-10-22 14:30:11
+error: plgVmOnPaymentNotification -- Another method was selected, do nothing : 
+
+2012-10-22 14:30:15
+error: plgVmOnPaymentNotification START 
+
+2012-10-22 14:30:15
+error: plgVmOnPaymentNotification -- Another method was selected, do nothing : 

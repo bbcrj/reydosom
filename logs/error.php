@@ -26,3 +26,8 @@
 2012-10-14	21:40:50	INFO	187.2.137.56	Joomla FAILURE: 	Usuário não existe
 2012-10-14	21:41:04	INFO	187.2.137.56	Joomla CANCELED: 	
 2012-10-14	21:41:26	INFO	187.2.137.56	Joomla FAILURE: 	Usuário não existe
+2012-10-22	16:59:52	INFO	177.103.235.192	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.
+2012-10-22	17:00:00	INFO	177.103.235.192	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.
+2012-10-22	17:00:11	INFO	177.103.235.192	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.
+2012-10-22	17:00:16	INFO	177.103.235.192	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.
+2012-10-22	17:00:33	INFO	177.103.235.192	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.
